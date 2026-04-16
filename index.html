@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Mouseover</title>
+    <style>
+        div {
+            width: 150px;
+            height: 80px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 80px;
+
+            /* smooth change */
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+
+    <div onmouseover="this.style.backgroundColor='red'"
+         onmouseout="this.style.backgroundColor='lightblue'">
+        Hover Me
+    </div>
+
+</body>
+</html>
